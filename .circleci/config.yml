@@ -37,7 +37,7 @@ jobs:
       - run: npm run test
 
 
-    analyze:
+  analyze:
 
     docker:
       - image: circleci/node:13.8.0
